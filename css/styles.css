@@ -7,3 +7,44 @@ body {
   font-size: 3em;
   color: white;
 }
+
+.heading {
+  font-family: 'Helvetica Neue', sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* flex-wrap: wrap; */
+}
+
+.keys {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.key {
+  /* transition: all .09s; */
+}
+
+.keybox {
+  padding: 0 10px;
+  text-align: center;
+  /* border-style: solid;
+  border-color: red;
+  border-radius: 10px; */
+}
+
+div kbd {
+  font-size: 2.5em;
+  font-family: Monospace;
+}
+
+div > span {
+  font-size: .5em;
+}
+
+.playing {
+  transform: scale(1.25);
+  /* border-color: #ffc600; */
+  /* box-shadow: 0 0 10px #ffc600; */
+}
